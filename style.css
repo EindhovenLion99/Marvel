@@ -1,0 +1,253 @@
+body {
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(59,59,88,1) 76%, rgba(46,89,98,1) 100%);
+    font: Arial;
+}
+
+
+button {
+    margin-top: -10px;
+    font-size: 80px;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    color: white;
+}
+
+
+h1 { 
+    font-family: Marvel; 
+    font-size: 24px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px; 
+} 
+    
+h3 { 
+    font-family: Marvel; 
+    font-size: 14px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 15.4px; 
+} 
+
+p { 
+    font-family: Marvel; 
+    font-size: 18px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 20px; 
+    color: white;
+} 
+    
+blockquote { 
+    font-family: Marvel; 
+    font-size: 21px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 30px; 
+} 
+
+pre { 
+    font-family: Marvel; 
+    font-size: 13px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 18.5714px; 
+}
+
+
+/* Mov */
+
+.card-panel#CapitanAmerica {
+
+    background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/01A80B8F08D40DB650C76C2C2D1EF94DBC0412241DD654C2CF0750DF45847ABB/scale?width=800&amp") scroll no-repeat 0 0;
+    background-size: cover;
+    width: 300px;
+    height: 175px;
+    position: relative;
+    left: -10px;
+
+}
+
+.card-panel#CapitanaMarvel {
+
+    background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B12114ACF6897AD1E0D1CEAE78E45FAFB7CE65C011EFAF1EF20553145CA05AAA/scale?width=800&amp") scroll no-repeat 0 0;
+    background-size: cover;
+    width: 300px;
+    height: 175px;
+    position: relative;
+    left: -10px;
+    
+}
+
+.card-panel#IronMan {
+
+    background: transparent url("https://i.ytimg.com/vi/lPxpJa0wPOY/maxresdefault.jpg") scroll no-repeat 0 0;
+    background-size: cover;
+    width: 300px;
+    height: 175px;
+    position: relative;
+    left: -10px;
+    
+}
+
+.card-panel#IronMan2 {
+
+    background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F4030FF9832F1C84777E4B6C5EAEAAD1A42563E593123468678DB179145222C5/scale?width=800&amp") scroll no-repeat 0 0;
+    background-size: cover;
+    width: 300px;
+    height: 175px;
+    position: relative;
+    left: -10px;
+    
+}
+
+.card-panel#Thor {
+
+    background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A2A22B9A33C8C1A6B70A54A7AF119B6C0BB1253688B0C36F3503DB832348D95B/scale?width=800&amp") scroll no-repeat 0 0;
+    background-size: cover;
+    width: 300px;
+    height: 175px;
+    position: relative;
+    left: -10px;
+    
+}
+
+.card-panel#LosVengadores {
+
+    background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4D24513218DD0D27AE33631063ECCBEFA3A0C3DCFDDC328B5B4C3EDB9354D5D0/scale?width=800&amp") scroll no-repeat 0 0;
+    background-size: cover;
+    width: 300px;
+    height: 175px;
+    position: relative;
+    left: -10px;
+
+}
+
+.card-panel#IronMan3 {
+
+    background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/A62CB342AF6600C794BDEAC8C49D6A81201CD49E614CC421ED08B0ADF005573B/scale?width=800&amp") scroll no-repeat 0 0;
+    background-size: cover;
+    width: 300px;
+    height: 175px;
+    position: relative;
+    left: -10px;
+
+}
+
+.card-panel#Thor2 {
+
+    background: transparent url("https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F76B101C6C6EEB84881491E1EDDEA0B344099ACA8F495CE9755BC410BEF7125A/scale?width=800&amp") scroll no-repeat 0 0;
+    background-size: cover;
+    width: 300px;
+    height: 175px;
+    position: relative;
+    left: -10px;
+
+}
+
+button#Mov {
+
+    margin-top: -25px;
+    margin-left: -25px;
+    background-color: transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    color: transparent;
+    height: 175px;
+    width: 300px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card-panel {
+        text-align: center;
+        background-color: black;
+        height: 60px;
+    }
+    
+    
+    
+    h1 {
+        margin-top: -25px;
+        font-size: 50px;
+        color: purple;
+    }
+    
+    button {
+        font-size: 30px;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        color: white;
+    }
+    .card-panel#Hobbs_Shaw {
+
+        background: transparent url("https://i1.wp.com/cinemaforumblog.com/wp-content/uploads/2019/09/Hobbs-Shaw-Afiche.jpg?fit=1200%2C593&ssl=1") scroll no-repeat 0 0;
+        background-size: cover;
+        width: 150px;
+        height: 85px;
+        position: relative;
+        left: -10px;
+        
+    }
+    
+    .card-panel#Kingsman2 {
+    
+        background: transparent url("https://cmonmurcia.com/wp-content/uploads/2017/10/kingsman2.jpeg") scroll no-repeat 0 0;
+        background-size: cover;
+        width: 150px;
+        height: 85px;
+        position: relative;
+        left: -10px;
+        
+    }
+    
+    .card-panel#caballero_oscuro {
+    
+        background: transparent url("https://astoria21.es/wp-content/uploads/2017/09/caballero-oscuro-nolan-batman-bale-ledger-destacado.jpg") scroll no-repeat 0 0;
+        background-size: cover;
+        width: 150px;
+        height: 85px;
+        position: relative;
+        left: -10px;
+        
+    }
+    
+    .card-panel#equalizer {
+    
+        background: transparent url("https://www.cinemascomics.com/wp-content/uploads/2018/04/the-equalizer-2-trailer.jpg?width=1200&enable=upscale") scroll no-repeat 0 0;
+        background-size: cover;
+        width: 150px;
+        height: 85px;
+        position: relative;
+        left: -10px;
+        
+    }
+    
+    button#Mov {
+    
+        margin-top: -25px;
+        margin-left: -25px;
+        background-color: transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+        color: transparent;
+        height: 85px;
+        width: 150px;
+    }
+    
+}
