@@ -36,52 +36,21 @@ button.Mobile {
     .Desktop {display: none;}
 }
 
-
-h1 { 
-    font-family: Marvel; 
-    font-size: 24px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 26.4px; 
-} 
-    
-h3 { 
-    font-family: Marvel; 
-    font-size: 14px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 15.4px; 
-} 
+div#text{
+    height: 1px;
+}
 
 p { 
     font-family: Marvel; 
+    height: 5px;
     font-size: 18px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
-    line-height: 20px; 
+    line-height: 10px; 
     color: white;
 } 
     
-blockquote { 
-    font-family: Marvel; 
-    font-size: 21px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    line-height: 30px; 
-} 
-
-pre { 
-    font-family: Marvel; 
-    font-size: 13px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    line-height: 18.5714px; 
-}
 
 
 /* Mov */
@@ -317,10 +286,7 @@ pre {
     left: -10px;
 }
 
-.card-panel#mo {
-    width: 325px;
-    height: 180px;
-}
+
 
 button#Mov {
 
