@@ -317,6 +317,11 @@ pre {
     left: -10px;
 }
 
+.card-panel#mo {
+    width: 325px;
+    height: 180px;
+}
+
 button#Mov {
 
     margin-top: -25px;
