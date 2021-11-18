@@ -1,7 +1,24 @@
-# Proyecto
+# marvel
 
-Pagina donde incluiré el catalogo de películas mediante google drive...
+## Project setup
+```
+npm install
+```
 
-Pagina de las Peliculas: Principal Servidor de pelis:
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-https://drive.google.com/drive/u/1/folders/0B81o6tr0No6OMmVMZ2hKVy1QcWs
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
